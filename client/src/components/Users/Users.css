@@ -1,0 +1,38 @@
+.Users {
+    width: 450px;
+    margin-bottom: 25px;
+    display: flex;
+    border-bottom: 1px solid dodgerblue;
+    justify-content: space-between;
+}
+
+.user-data {
+    margin: 0 auto;
+}
+
+.delete {
+    width: 45px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    border: none;
+}
+
+.delete:hover {
+    cursor: pointer;
+    background-color: rgb(166, 1, 1);
+}
+
+.edit {
+    width: 50px;
+    height: 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+
+.edit:hover {
+    cursor: pointer;
+    background-color: rgb(80, 167, 253);
+}

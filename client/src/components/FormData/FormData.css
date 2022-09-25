@@ -1,0 +1,14 @@
+.FormData {
+    width: 550px;
+    height: 550px;
+    box-shadow: 0.2em 0.3em 0.5em dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.FormData a {
+    color: dodgerblue;
+    font-weight: bold;
+}
